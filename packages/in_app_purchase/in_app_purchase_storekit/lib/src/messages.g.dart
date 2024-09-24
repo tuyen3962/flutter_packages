@@ -412,9 +412,9 @@ class SKPriceLocaleMessage {
   static SKPriceLocaleMessage decode(Object result) {
     result as List<Object?>;
     return SKPriceLocaleMessage(
-      currencySymbol: result[0]? as String? ?? '',
-      currencyCode: result[1]? as String? ?? '',
-      countryCode: result[2]? as String? ?? '',
+      currencySymbol: (result[0] as String?) ?? '',
+      currencyCode: (result[1] as String?) ?? '',
+      countryCode: (result[2] as String?) ?? '',
     );
   }
 }
