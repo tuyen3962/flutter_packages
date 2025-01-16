@@ -111,7 +111,7 @@ public class PreviewHostApiImpl implements PreviewHostApi {
               // https://developer.android.com/reference/androidx/camera/core/SurfaceRequest.Result
               // for documentation.
               // Always attempt a release.
-              flutterSurface.release();
+              // flutterSurface.release();
               int resultCode = result.getResultCode();
               switch (resultCode) {
                 case SurfaceRequest.Result.RESULT_REQUEST_CANCELLED:
