@@ -1,3 +1,20 @@
+## 2.4.1
+
+* Bumps kotlin version to 1.9.10 androidx.datastore:datastore from 1.0.0 to 1.1.1.
+
+## 2.4.0
+
+* Adds `SharedPreferences` support within `SharedPreferencesAsyncAndroid` API.
+
+## 2.3.4
+
+* Restrict types when decoding preferences.
+
+## 2.3.3
+
+* Updates Java compatibility version to 11.
+* Updates minimum supported SDK version to Flutter 3.24/Dart 3.5.
+
 ## 2.3.2
 
 * Bumps `com.android.tools.build:gradle` from 7.2.2 to 8.5.1.
